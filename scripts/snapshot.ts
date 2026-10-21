@@ -4,12 +4,13 @@
 //
 //   npm run snapshot
 //
-// Guides fetched: everything in data/ig-map.yaml plus the national and regional cores the
-// registry files by rule (src/core/national.ts). A guide with no reachable package-list.json falls
+// Guides fetched: everything in data/ig-map.yaml and data/national-cores.yaml that the registry
+// lists. Each release keeps the publisher's "current" flag, so rows can link the release the
+// publisher calls current. A guide with no reachable package-list.json falls
 // back to the editions the registry itself lists, which carry no status or date.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { parse } from 'yaml';
-import { isNationalCore, type RegistryEntry } from '../src/core/national.ts';
+import type { NationalCore, RegistryEntry } from '../src/core/national.ts';
 
 const REGISTRY = 'https://raw.githubusercontent.com/FHIR/ig-registry/master/fhir-ig-list.json';
 const CONCURRENCY = 8;
@@ -26,6 +27,7 @@ interface RegistryGuide {
 }
 interface PackageListEntry {
   version: string;
+  current?: boolean;
   fhirversion?: string;
   date?: string;
   status?: string;
@@ -63,12 +65,8 @@ for (const g of list.guides) {
 const byNpm = new Map(list.guides.map((g) => [g['npm-name'], g]));
 
 const map = parse(readFileSync('data/ig-map.yaml', 'utf8')) as { guides: { npm: string }[] };
-const wanted = new Set([
-  ...map.guides.map((g) => g.npm),
-  ...Object.values(registry)
-    .filter(isNationalCore)
-    .map((e) => e.npm),
-]);
+const national = parse(readFileSync('data/national-cores.yaml', 'utf8')) as NationalCore[];
+const wanted = new Set([...map.guides.map((g) => g.npm), ...national.map((n) => n.ig)]);
 const missing = [...wanted].filter((id) => !byNpm.has(id));
 
 async function releasesFor(g: RegistryGuide) {
@@ -78,15 +76,18 @@ async function releasesFor(g: RegistryGuide) {
     : null;
   const entries = (pl?.list ?? []).filter((e) => e.version && e.version !== 'current');
   if (entries.length) {
+    // Some version lists leave out the FHIR version; fall back to what the registry's editions say.
+    const editionFhir = [...new Set((g.editions ?? []).flatMap((e) => e['fhir-version'] ?? []))];
     return {
       packageList: true,
       versions: entries.map((e) => ({
         version: e.version,
-        fhir: (e.fhirversion ?? '').split(/[|,;]\s*/).filter(Boolean),
+        fhir: e.fhirversion ? e.fhirversion.split(/[|,;]\s*/).filter(Boolean) : editionFhir,
         date: e.date?.slice(0, 10),
         status: e.status,
         sequence: e.sequence,
         path: e.path,
+        current: e.current === true || undefined,
       })),
     };
   }

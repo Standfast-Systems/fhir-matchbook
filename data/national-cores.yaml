@@ -1,0 +1,37 @@
+# National and regional core and base guides for the International view. All three parties build
+# to them, so they sit in the centre of the diagram, labelled with their country and sorted by it.
+#
+# Copied, not linked, from FHIR Initializr's hand-checked list (kb/realms.yaml in
+# github.com/Standfast-Systems/fhir-initializr, curated 2026-10-21); the two apps stay independent.
+# The registry's own "National Base" tagging points at the wrong package for several countries, so
+# this list replaces the earlier registry rule. The EU entries are regional guides Initializr
+# doesn't list.
+#
+# The official registry is Matchbook's only source of guides: an entry it doesn't list is skipped
+# at build time (with a warning) and shows up by itself once the registry adds it. As of 2026-10-21
+# that skips CL, DE, FR, IL, JP and UK.
+
+- { country: AT, ig: hl7.at.fhir.core.r4 }
+- { country: AU, ig: hl7.fhir.au.base }
+- { country: AU, ig: hl7.fhir.au.core }
+- { country: BD, ig: bd.fhir.core }
+- { country: BE, ig: hl7.fhir.be.core }
+- { country: CA, ig: hl7.fhir.ca.baseline }
+- { country: CH, ig: ch.fhir.ig.ch-core }
+- { country: CL, ig: hl7.fhir.cl.clcore }
+- { country: CZ, ig: hl7.fhir.cz.core }
+- { country: DE, ig: de.basisprofil.r4 }
+- { country: DK, ig: hl7.fhir.dk.core }
+- { country: FI, ig: hl7.fhir.fi.base }
+- { country: FR, ig: hl7.fhir.fr.core }
+- { country: IL, ig: il.core.fhir.r4 }
+- { country: IN, ig: ndhm.in }
+- { country: JP, ig: jp-core.r4 }
+- { country: KR, ig: hl7.fhir.kr.core }
+- { country: 'NO', ig: hl7.fhir.no.basis }
+- { country: NZ, ig: fhir.org.nz.ig.base }
+- { country: SE, ig: hl7se.fhir.base }
+- { country: TW, ig: tw.gov.mohw.twcore }
+- { country: UK, ig: fhir.r4.ukcore.stu2 }
+- { country: EU, ig: hl7.fhir.eu.base }
+- { country: EU, ig: myhealth.eu.fhir.core }

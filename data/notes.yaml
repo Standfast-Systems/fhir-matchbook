@@ -769,8 +769,8 @@ ihe.pcc.fiio:
   blurb: "Extra options and testing requirements for implementing the International Patient Summary."
 
 # National and regional cores (International view) ------------------------------------------------
-# Picked from the registry by rule (src/core/national.ts); these entries only clean up names and add
-# one-liners. A core that appears on a later refresh shows with a cleaned registry name until added.
+# The guides come from data/national-cores.yaml; these entries give them clean names and one-liners.
+# Entries for cores the registry doesn't list yet (CL, DE, FR, IL, JP, UK) are ready for when it does.
 hl7.fhir.au.core:
   name: AU Core
   blurb: "Australia's baseline FHIR profiles for patient data; the Australian counterpart to US Core."
@@ -780,18 +780,12 @@ hl7.fhir.au.base:
 hl7.at.fhir.core.r4:
   name: Austrian Core
   blurb: "Austria's baseline FHIR profiles for patient data; the Austrian counterpart to US Core."
-hl7.at.fhir.core.r5:
-  name: Austrian Core (R5)
-  blurb: "Austria's baseline FHIR profiles for patient data, in the R5 edition."
 bd.fhir.core:
   name: Bangladesh Core
   blurb: "Bangladesh's baseline FHIR profiles for patient data; the Bangladeshi counterpart to US Core."
 hl7.fhir.be.core:
   name: Belgian Core
   blurb: "Belgium's core profiles for patients, practitioners and organizations, shared by every Belgian guide."
-hl7.fhir.be.core-clinical:
-  name: Belgian Core Clinical
-  blurb: "Belgium's shared clinical profiles, such as conditions and observations, that its topic guides reuse."
 hl7.fhir.ca.baseline:
   name: Canadian Baseline
   blurb: "Canada's baseline FHIR profiles that pan-Canadian and provincial guides build on."
@@ -801,7 +795,7 @@ ch.fhir.ig.ch-core:
 hl7.fhir.cz.core:
   name: Czech Core and Base
   blurb: "The Czech Republic's base and core profiles in one guide; the Czech counterpart to US Core."
-basisprofil.de:
+de.basisprofil.r4:
   name: German Base Profiles
   blurb: "Germany's national base: the local identifiers, extensions and code systems German guides build on."
 hl7.fhir.dk.core:
@@ -813,51 +807,39 @@ myhealth.eu.fhir.core:
 hl7.fhir.eu.base:
   name: European Base and Core
   blurb: "HL7 Europe's shared base and core profiles that European national guides align with."
-hl7.fhir.eu.base-r5:
-  name: European Base and Core (R5)
-  blurb: "HL7 Europe's shared base and core profiles, in the R5 edition."
 hl7.fhir.fi.base:
   name: Finnish Base
   blurb: "Finland's national base: the local identifiers, extensions and code systems Finnish guides build on."
-fhir.r4.ukcore.stu3.currentbuild:
+fhir.r4.ukcore.stu2:
   name: UK Core
   blurb: "The UK's baseline FHIR profiles for patient data; the UK counterpart to US Core."
-hl7.fhir.it.base:
-  name: Italian Base
-  blurb: "Italy's national base: the local identifiers, extensions and code systems Italian guides build on."
-hl7.fhir.jp.core:
+jp-core.r4:
   name: JP Core
   blurb: "Japan's baseline FHIR profiles for patient data; the Japanese counterpart to US Core."
 hl7.fhir.kr.core:
   name: KR Core
   blurb: "Korea's baseline FHIR profiles for patient data; the Korean counterpart to US Core."
-medmij.fhir.nl.r4.core:
-  name: Dutch Core (MedMij)
-  blurb: "The Netherlands' MedMij core profiles for exchanging data with personal health environments."
-medmij.fhir.nl.stu3.core:
-  name: Dutch Core (MedMij, STU3)
-  blurb: "The Netherlands' MedMij core profiles for personal health environments, in the older STU3 edition."
 hl7.fhir.no.basis:
   name: Norwegian Base
   blurb: "Norway's national base: the local identifiers, extensions and code systems Norwegian guides build on."
 fhir.org.nz.ig.base:
   name: NZ Base
   blurb: "New Zealand's national base: the local identifiers, extensions and code systems New Zealand guides build on."
-fhir.ph.core:
-  name: PH Core
-  blurb: "The Philippines' baseline FHIR profiles for patient data; the Philippine counterpart to US Core."
-hl7.fhir.pl.base.r5:
-  name: Polish Base (R5)
-  blurb: "Poland's national base, in the R5 edition."
 hl7se.fhir.base:
   name: Swedish Base
   blurb: "Sweden's national base: the local identifiers, extensions and code systems Swedish guides build on."
-se.vgregion.fhir.base:
-  name: VGR Base
-  blurb: "Base profiles for Västra Götaland, a Swedish region, building on the Swedish base."
 tw.gov.mohw.twcore:
   name: TW Core
   blurb: "Taiwan's baseline FHIR profiles for patient data; the Taiwanese counterpart to US Core."
-uz.dhp.core:
-  name: UZ Core
-  blurb: "Uzbekistan's baseline FHIR profiles for patient data; the Uzbek counterpart to US Core."
+hl7.fhir.cl.clcore:
+  name: CL Core
+  blurb: "Chile's baseline FHIR profiles for patient data; the Chilean counterpart to US Core."
+hl7.fhir.fr.core:
+  name: FR Core
+  blurb: "France's baseline FHIR profiles for patient data; the French counterpart to US Core."
+il.core.fhir.r4:
+  name: IL Core
+  blurb: "Israel's Ministry of Health core FHIR profiles, widely used though still a 0.x release."
+ndhm.in:
+  name: India ABDM Profiles
+  blurb: "India's national FHIR profiles for the Ayushman Bharat Digital Mission (ABDM), published by NRCeS."

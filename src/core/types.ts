@@ -22,6 +22,8 @@ export interface Release {
   url: string;
   /** Short maturity label, e.g. "STU 2.2" or "v1.0.0". */
   label: string;
+  /** The publisher marks this the current release in its package-list.json. */
+  current?: boolean;
 }
 
 export interface Guide {

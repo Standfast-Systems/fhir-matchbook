@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T17:09:18.907Z",
+ "generated": "2026-10-21T22:03:46.385Z",
  "source": "https://raw.githubusercontent.com/FHIR/ig-registry/master/fhir-ig-list.json",
  "registry": {
   "hl7.fhir.us.core": {
@@ -3084,7 +3084,8 @@
      "date": "2019-04-18",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
+     "path": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0",
+     "current": true
     }
    ]
   },
@@ -3102,29 +3103,8 @@
      "date": "2019-04-18",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
-    }
-   ]
-  },
-  "basisprofil.de": {
-   "title": "Basisprofil DE",
-   "description": "German Base Profiles",
-   "canonical": "http://fhir.de",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "0.2.30",
-     "fhir": [
-      "3.0.1"
-     ],
-     "path": "http://ig.fhir.de/basisprofile-de/0.2.30"
-    },
-    {
-     "version": "0.9.1-alpha2",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://simplifier.net/guide/basisprofil-de-r4/home"
+     "path": "http://fhir.org/guides/argonaut/questionnaire/1.0.0",
+     "current": true
     }
    ]
   },
@@ -3136,7 +3116,9 @@
    "versions": [
     {
      "version": "0.5.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-10-15",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3144,7 +3126,9 @@
     },
     {
      "version": "0.4.8",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-10-12",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3152,7 +3136,9 @@
     },
     {
      "version": "0.4.7",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-10-12",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3160,7 +3146,9 @@
     },
     {
      "version": "0.4.6",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-27",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3168,7 +3156,9 @@
     },
     {
      "version": "0.4.5",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-10",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3176,7 +3166,9 @@
     },
     {
      "version": "0.4.4",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3184,7 +3176,9 @@
     },
     {
      "version": "0.4.3",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3192,7 +3186,9 @@
     },
     {
      "version": "0.4.2",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3200,7 +3196,9 @@
     },
     {
      "version": "0.4.1",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3208,7 +3206,9 @@
     },
     {
      "version": "0.4.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-04-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3216,7 +3216,9 @@
     },
     {
      "version": "0.3.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2026-03-08",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3224,7 +3226,9 @@
     },
     {
      "version": "0.2.5",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3232,7 +3236,9 @@
     },
     {
      "version": "0.2.4",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3240,7 +3246,9 @@
     },
     {
      "version": "0.2.3",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3248,7 +3256,9 @@
     },
     {
      "version": "0.2.2",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3256,7 +3266,9 @@
     },
     {
      "version": "0.2.1",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-06",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3264,7 +3276,9 @@
     },
     {
      "version": "0.2.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2025-10-02",
      "status": "trial-use",
      "sequence": "STU 1",
@@ -3286,7 +3300,8 @@
      "date": "2026-06-10",
      "status": "ballot",
      "sequence": "STU 7",
-     "path": "http://fhir.ch/ig/ch-core/7.0.0-ballot"
+     "path": "http://fhir.ch/ig/ch-core/7.0.0-ballot",
+     "current": true
     },
     {
      "version": "6.0.0",
@@ -3438,7 +3453,8 @@
      "date": "2019-04-18",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0"
+     "path": "http://fhir.org/guides/argonaut/clinicalnotes/1.0.0",
+     "current": true
     }
    ]
   },
@@ -3456,7 +3472,8 @@
      "date": "2017-06-15",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/argonaut/pd/release1"
+     "path": "http://fhir.org/guides/argonaut/pd/release1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -3484,7 +3501,8 @@
      "date": "2019-04-18",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/argonaut/questionnaire/1.0.0"
+     "path": "http://fhir.org/guides/argonaut/questionnaire/1.0.0",
+     "current": true
     }
    ]
   },
@@ -3502,7 +3520,8 @@
      "date": "2016-12-23",
      "status": "release",
      "sequence": "First Release",
-     "path": "http://fhir.org/guides/argonaut/r2/1.0"
+     "path": "http://fhir.org/guides/argonaut/r2/1.0",
+     "current": true
     }
    ]
   },
@@ -3520,7 +3539,8 @@
      "date": "2018-04-23",
      "status": "release",
      "sequence": "First Release",
-     "path": "http://fhir.org/guides/argonaut/scheduling/release1"
+     "path": "http://fhir.org/guides/argonaut/scheduling/release1",
+     "current": true
     }
    ]
   },
@@ -3538,7 +3558,8 @@
      "date": "2025-08-18",
      "status": "release",
      "sequence": "0.1.0",
-     "path": "http://fhir.org/guides/astp/bhp/0.1.0"
+     "path": "http://fhir.org/guides/astp/bhp/0.1.0",
+     "current": true
     }
    ]
   },
@@ -3556,7 +3577,8 @@
      "date": "2026-08-23",
      "status": "release",
      "sequence": "2022",
-     "path": "http://fhir.org/guides/cdc/opioid-cds/2022.1.1"
+     "path": "http://fhir.org/guides/cdc/opioid-cds/2022.1.1",
+     "current": true
     },
     {
      "version": "2022.1.0",
@@ -3584,7 +3606,8 @@
      "date": "2021-11-25",
      "status": "release",
      "sequence": "Release 1",
-     "path": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0"
+     "path": "http://fhir.org/guides/cdc/opioid-mme-r4/3.0.0",
+     "current": true
     }
    ]
   },
@@ -3617,7 +3640,8 @@
      "date": "2025-03-28",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://fhir.org/guides/hrsa/uds-plus/STU2"
+     "path": "http://fhir.org/guides/hrsa/uds-plus/STU2",
+     "current": true
     },
     {
      "version": "1.1.0",
@@ -3655,7 +3679,8 @@
      "date": "2016-12-23",
      "status": "draft",
      "sequence": "Draft For Comment",
-     "path": "http://fhir.org/guides/hspc/core/0.1.0"
+     "path": "http://fhir.org/guides/hspc/core/0.1.0",
+     "current": true
     }
    ]
   },
@@ -3673,7 +3698,8 @@
      "date": "2026-06-08",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://fhir.org/guides/onc/us-quality-core/0.5.0"
+     "path": "http://fhir.org/guides/onc/us-quality-core/0.5.0",
+     "current": true
     }
    ]
   },
@@ -3691,7 +3717,8 @@
      "date": "2026-07-24",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://fhir.org.nz/ig/base/3.1.0"
+     "path": "http://fhir.org.nz/ig/base/3.1.0",
+     "current": true
     },
     {
      "version": "3.0.1",
@@ -3702,63 +3729,6 @@
      "status": "release",
      "sequence": "Releases",
      "path": "http://fhir.org.nz/ig/base/3.0.1"
-    }
-   ]
-  },
-  "fhir.ph.core": {
-   "title": "PH Core",
-   "description": "National base FHIR R4 profiles, extensions, and terminology for the Philippines, defining minimum conformance expectations for interoperable health information exchange.",
-   "canonical": "https://fhir.doh.gov.ph/phcore",
-   "packageList": true,
-   "versions": [
-    {
-     "version": "0.2.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "date": "2026-09-21",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://fhir.doh.gov.ph/phcore/0.2.0"
-    },
-    {
-     "version": "0.1.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "date": "2026-09-21",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://fhir.doh.gov.ph/phcore/0.1.0"
-    }
-   ]
-  },
-  "fhir.r4.ukcore.stu3.currentbuild": {
-   "title": "HL7 UK FHIR UKCore Implementation Guide",
-   "description": "HL7 UK FHIR UKCore Implementation Guide",
-   "canonical": "https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence?version=current",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "0.0.18-pre-release",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home?version=current"
-    },
-    {
-     "version": "2.0.1",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://simplifier.net/guide/uk-core-implementation-guide-stu2?version=2.0.1"
-    },
-    {
-     "version": "1.0.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://simplifier.net/guide/uk-core-implementation-guide?version=1.0.0"
     }
    ]
   },
@@ -3776,7 +3746,8 @@
      "date": "2025-11-26",
      "status": "draft",
      "sequence": "Pre-Release",
-     "path": "http://canonical.fhir.link/flc/base/0.2.4"
+     "path": "http://canonical.fhir.link/flc/base/0.2.4",
+     "current": true
     },
     {
      "version": "0.2.3",
@@ -3804,7 +3775,8 @@
      "date": "2026-05-15",
      "status": "release",
      "sequence": "R 2",
-     "path": "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/2.0.0"
+     "path": "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/2.0.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -3832,7 +3804,8 @@
      "date": "2026-05-14",
      "status": "release",
      "sequence": "R 1",
-     "path": "http://www.cdc.gov/nhsn/fhirportal/safr/ig/1.0.1"
+     "path": "http://www.cdc.gov/nhsn/fhirportal/safr/ig/1.0.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -3876,21 +3849,6 @@
     }
    ]
   },
-  "hl7.at.fhir.core.r5": {
-   "title": "HL7® Austria FHIR® Core Implementation Guide",
-   "description": "A FHIR® Implementation Guide for the HL7® Austria FHIR® Core Profiles.",
-   "canonical": "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "2.0.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "path": "http://hl7.at/fhir/HL7ATCoreProfiles/5.0.0/2.0.0"
-    }
-   ]
-  },
   "hl7.cda.us.ccda": {
    "title": "CCDA: Consolidated CDA Release",
    "description": "C-CDA 3.0 merges the C-CDA R2.1 and the C-CDA Companion Guides, adds C-CDA enhancement requests, and incorporates new design and guidance for USCDI V4. The guide represents C-CDA templates using HL7 FHIR StructureDefinition. It is built upon the underlying CDA standard’s structures defined as Logical Models. These FHIR Logical models are abstract data structures which have been instantiated into physical CDA templates to be implemented in CDA data exchange. As such, it adheres to the CDA Release 2.0 standard and remains a CDA-based Implementation Guide (IG).",
@@ -3905,7 +3863,8 @@
      "date": "2026-06-13",
      "status": "trial-use",
      "sequence": "CCDA 5.0",
-     "path": "http://hl7.org/cda/us/ccda/5.0.0"
+     "path": "http://hl7.org/cda/us/ccda/5.0.0",
+     "current": true
     },
     {
      "version": "5.0.0-ballot",
@@ -3983,7 +3942,8 @@
      "date": "2026-06-12",
      "status": "informative",
      "sequence": "CDA 2.0",
-     "path": "http://hl7.org/cda/stds/core/2.0.3-sd"
+     "path": "http://hl7.org/cda/stds/core/2.0.3-sd",
+     "current": true
     },
     {
      "version": "2.0.2-sd",
@@ -4061,7 +4021,8 @@
      "date": "2026-07-29",
      "status": "trial-use",
      "sequence": "R2 STU 1",
-     "path": "http://cql.hl7.org/R2"
+     "path": "http://cql.hl7.org/R2",
+     "current": true
     },
     {
      "version": "1.5.3",
@@ -4085,7 +4046,9 @@
     },
     {
      "version": "1.5.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2020-04-01",
      "status": "ballot",
      "sequence": "Normative",
@@ -4093,7 +4056,9 @@
     },
     {
      "version": "1.4.1",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2019-06-30",
      "status": "trial-use",
      "sequence": "STU4",
@@ -4101,7 +4066,9 @@
     },
     {
      "version": "1.4.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2019-03-24",
      "status": "ballot",
      "sequence": "STU4",
@@ -4109,7 +4076,9 @@
     },
     {
      "version": "1.3.1",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2018-09-05",
      "status": "trial-use",
      "sequence": "STU3",
@@ -4117,7 +4086,9 @@
     },
     {
      "version": "1.3.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2018-04-01",
      "status": "ballot",
      "sequence": "STU3",
@@ -4125,7 +4096,9 @@
     },
     {
      "version": "1.2.1",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2016-12-06",
      "status": "trial-use",
      "sequence": "STU2",
@@ -4133,7 +4106,9 @@
     },
     {
      "version": "1.1.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2016-07-01",
      "status": "trial-use",
      "sequence": "STU1",
@@ -4141,7 +4116,9 @@
     },
     {
      "version": "1.0.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2015-05-01",
      "status": "trial-use",
      "sequence": "STU1",
@@ -4199,7 +4176,8 @@
      "date": "2026-06-12",
      "status": "normative",
      "sequence": "Normative 1",
-     "path": "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1"
+     "path": "http://hl7.org/ehrs/uv/ehrsfmr2/Normative1",
+     "current": true
     },
     {
      "version": "2.1.1-ballot",
@@ -4227,7 +4205,8 @@
      "date": "2026-06-23",
      "status": "normative",
      "sequence": "Normative 1",
-     "path": "http://hl7.org/ehrs/uv/phrsfmr2/Normative1"
+     "path": "http://hl7.org/ehrs/uv/phrsfmr2/Normative1",
+     "current": true
     },
     {
      "version": "2.0.1-ballot",
@@ -4275,7 +4254,8 @@
      "date": "2026-01-15",
      "status": "trial-use",
      "sequence": "R6",
-     "path": "http://hl7.org.au/fhir/6.0.0"
+     "path": "http://hl7.org.au/fhir/6.0.0",
+     "current": true
     },
     {
      "version": "6.0.0-preview",
@@ -4573,7 +4553,8 @@
      "date": "2026-01-28",
      "status": "trial-use",
      "sequence": "R2",
-     "path": "http://hl7.org.au/fhir/core/2.0.0"
+     "path": "http://hl7.org.au/fhir/core/2.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-preview",
@@ -4711,29 +4692,68 @@
    "title": "HL7 Belgium FHIR Implementation Guide - Core profiles",
    "description": "HL7 Belgium FHIR Implementation Guide - Core profiles",
    "canonical": "https://www.ehealth.fgov.be/standards/fhir/core",
-   "packageList": false,
+   "packageList": true,
    "versions": [
     {
      "version": "2.2.0",
      "fhir": [
       "4.0.1"
      ],
-     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.2.0"
-    }
-   ]
-  },
-  "hl7.fhir.be.core-clinical": {
-   "title": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
-   "description": "HL7 Belgium FHIR Implementation Guide - Core clinical profiles - transversal",
-   "canonical": "https://www.ehealth.fgov.be/standards/fhir/core-clinical",
-   "packageList": false,
-   "versions": [
+     "date": "2026-08-19",
+     "status": "release",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.2.0",
+     "current": true
+    },
     {
-     "version": "1.3.0",
+     "version": "2.1.2",
      "fhir": [
       "4.0.1"
      ],
-     "path": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.3.0"
+     "date": "2024-08-30",
+     "status": "release",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.1.2"
+    },
+    {
+     "version": "2.1.1",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2024-06-11",
+     "status": "release",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.1.1"
+    },
+    {
+     "version": "2.1.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2024-05-02",
+     "status": "release",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.1.0"
+    },
+    {
+     "version": "2.0.1",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2022-09-13",
+     "status": "trial-use",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.1"
+    },
+    {
+     "version": "2.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2022-03-24",
+     "status": "draft",
+     "sequence": "Trial Use",
+     "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.0.0"
     }
    ]
   },
@@ -4773,7 +4793,8 @@
      "date": "2026-07-29",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "https://hl7.cz/fhir/core/1.0.0"
+     "path": "https://hl7.cz/fhir/core/1.0.0",
+     "current": true
     },
     {
      "version": "0.3.0",
@@ -4801,7 +4822,8 @@
      "date": "2026-05-30",
      "status": "release",
      "sequence": "Release",
-     "path": "http://hl7.dk/fhir/core/3.7.0"
+     "path": "http://hl7.dk/fhir/core/3.7.0",
+     "current": true
     },
     {
      "version": "3.6.0",
@@ -4929,7 +4951,8 @@
      "date": "2026-09-13",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.eu/fhir/base/2.0.1"
+     "path": "http://hl7.eu/fhir/base/2.0.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -4993,74 +5016,6 @@
     }
    ]
   },
-  "hl7.fhir.eu.base-r5": {
-   "title": "HL7 Europe Base and Core (R5)",
-   "description": "This guide lists the base and core profiles  - FHIR R5 - specified for the European REALM.",
-   "canonical": "http://hl7.eu/fhir/base-r5",
-   "packageList": true,
-   "versions": [
-    {
-     "version": "2.0.1",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-09-13",
-     "status": "trial-use",
-     "sequence": "STU 2",
-     "path": "http://hl7.eu/fhir/base-r5/2.0.1"
-    },
-    {
-     "version": "2.0.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-04-27",
-     "status": "trial-use",
-     "sequence": "STU 2",
-     "path": "http://hl7.eu/fhir/base-r5/2.0.0"
-    },
-    {
-     "version": "2.0.0-ballot",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": " 2025-12-1",
-     "status": "ballot",
-     "sequence": "STU 2",
-     "path": "http://hl7.eu/fhir/base-r5/2.0.0-ballot"
-    },
-    {
-     "version": "0.1.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2025-10-26",
-     "status": "trial-use",
-     "sequence": "STU 1",
-     "path": "http://hl7.eu/fhir/base-r5/0.1.0"
-    },
-    {
-     "version": "0.1.0-snapshot",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2025-09-23",
-     "status": "preview",
-     "sequence": "STU 1",
-     "path": "http://hl7.eu/fhir/base-r5/0.1.0-snapshot"
-    },
-    {
-     "version": "0.1.0-ballot",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2025-05-06",
-     "status": "ballot",
-     "sequence": "STU 1",
-     "path": "http://hl7.eu/fhir/base-r5/0.1.0-ballot"
-    }
-   ]
-  },
   "hl7.fhir.fi.base": {
    "title": "Finnish Base Profiles",
    "description": "A core set of FHIR resources profiled for use in Finland, published and maintained by HL7 Finland",
@@ -5075,7 +5030,8 @@
      "date": "2025-10-05",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "https://hl7.fi/fhir/finnish-base-profiles/2.0.0"
+     "path": "https://hl7.fi/fhir/finnish-base-profiles/2.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-rc2",
@@ -5279,46 +5235,6 @@
     }
    ]
   },
-  "hl7.fhir.it.base": {
-   "title": "HL7 Italia FHIR Implementation Guide (base)",
-   "description": "This guide describes a set of FHIR base profiles and reference logical models to be used in the Italian context",
-   "canonical": "http://hl7.it/fhir/base",
-   "packageList": true,
-   "versions": [
-    {
-     "version": "0.1.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "date": "2020-06-15",
-     "status": "ballot",
-     "sequence": "Public Comment 1",
-     "path": "http://hl7.it/fhir/base/2020-06"
-    }
-   ]
-  },
-  "hl7.fhir.jp.core": {
-   "title": "Japanese Core Implementation Guide",
-   "description": "A core set of FHIR resources profiled for the Japanese context",
-   "canonical": "http://jpfhir.jp/fhir/core",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "1.2.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://jpfhir.jp/fhir/core/1.2.0"
-    },
-    {
-     "version": "1.1.2",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://jpfhir.jp/fhir/core/1.1.2"
-    }
-   ]
-  },
   "hl7.fhir.kr.core": {
    "title": "KR Core Implementation Guide",
    "description": "Base Korean national implementation guide",
@@ -5333,7 +5249,8 @@
      "date": "2025-08-29",
      "status": "release",
      "sequence": "STU 2",
-     "path": "http://www.hl7korea.or.kr/fhir/krcore/STU2"
+     "path": "http://www.hl7korea.or.kr/fhir/krcore/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot-final",
@@ -5422,21 +5339,6 @@
     }
    ]
   },
-  "hl7.fhir.pl.base.r5": {
-   "title": "PL Base (R5)",
-   "description": "This guide lists the base profiles specified for the Polish realm.",
-   "canonical": "http://hl7.org.pl/fhir/ig/pl-base/ImplementationGuide/Hl7PlBaseIg",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "0.1.2",
-     "fhir": [
-      "5.0.0"
-     ],
-     "path": "https://hl7.org.pl/ig/pl-base/0.1.2"
-    }
-   ]
-  },
   "hl7.fhir.us.bfdr": {
    "title": "Vital Records Birth and Fetal Death Reporting",
    "description": "Provides guidance to implementers and states on reporting birth and fetal death information based on the current revisions of the U.S. Standard Certificate of Live Birth and U.S. Standard Report of Fetal Death.",
@@ -5451,7 +5353,8 @@
      "date": "2024-10-15",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/bfdr/STU2"
+     "path": "http://hl7.org/fhir/us/bfdr/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -5575,7 +5478,8 @@
      "date": "2020-03-02",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/bser/STU1"
+     "path": "http://hl7.org/fhir/us/bser/STU1",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -5628,7 +5532,8 @@
      "date": "2025-10-03",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/cancer-reporting/STU2"
+     "path": "http://hl7.org/fhir/us/cancer-reporting/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -5686,7 +5591,8 @@
      "date": "2026-03-27",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/carin-bb/STU2.2"
+     "path": "http://hl7.org/fhir/us/carin-bb/STU2.2",
+     "current": true
     },
     {
      "version": "2.1.0",
@@ -5784,7 +5690,8 @@
      "date": "2020-08-25",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/carin-rtpbc/STU1"
+     "path": "http://hl7.org/fhir/us/carin-rtpbc/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -5812,7 +5719,8 @@
      "date": "2026-06-05",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/ccda/STU2"
+     "path": "http://hl7.org/fhir/us/ccda/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -5900,7 +5808,8 @@
      "date": "2026-09-16",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/cdc-opioid-cpg/1.0.0"
+     "path": "http://hl7.org/fhir/us/cdc-opioid-cpg/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -5928,7 +5837,8 @@
      "date": "2021-12-06",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/cdmh/STU1"
+     "path": "http://hl7.org/fhir/us/cdmh/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -5966,7 +5876,8 @@
      "date": "2024-05-31",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/central-cancer-registry-reporting/STU1"
+     "path": "http://hl7.org/fhir/us/central-cancer-registry-reporting/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -5994,7 +5905,8 @@
      "date": "2025-02-18",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/codex-radiation-therapy/STU2"
+     "path": "http://hl7.org/fhir/us/codex-radiation-therapy/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -6060,7 +5972,8 @@
      "date": "2026-05-31",
      "status": "trial-use",
      "sequence": "STU9",
-     "path": "http://hl7.org/fhir/us/core/STU9"
+     "path": "http://hl7.org/fhir/us/core/STU9",
+     "current": true
     },
     {
      "version": "9.0.0-ballot",
@@ -6328,7 +6241,8 @@
      "date": "2022-07-25",
      "status": "informative",
      "sequence": "Informative",
-     "path": "http://hl7.org/fhir/us/covid19library/informative1"
+     "path": "http://hl7.org/fhir/us/covid19library/informative1",
+     "current": true
     },
     {
      "version": "0.14.0",
@@ -6366,7 +6280,8 @@
      "date": "2024-11-04",
      "status": "trial-use",
      "sequence": "STU5 (v5.0.0)",
-     "path": "http://hl7.org/fhir/us/cqfmeasures/STU5"
+     "path": "http://hl7.org/fhir/us/cqfmeasures/STU5",
+     "current": true
     },
     {
      "version": "5.0.0-ballot2",
@@ -6484,7 +6399,8 @@
      "date": "2026-08-21",
      "status": "informative",
      "sequence": "Informative 2",
-     "path": "http://hl7.org/fhir/us/cql/2.0.0"
+     "path": "http://hl7.org/fhir/us/cql/2.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -6532,7 +6448,8 @@
      "date": "2017-04-21",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/daf-research/STU2"
+     "path": "http://hl7.org/fhir/us/daf-research/STU2",
+     "current": true
     },
     {
      "version": "1.8.0",
@@ -6600,7 +6517,8 @@
      "date": "2017-04-21",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/daf-research/STU2"
+     "path": "http://hl7.org/fhir/us/daf-research/STU2",
+     "current": true
     },
     {
      "version": "1.8.0",
@@ -6704,7 +6622,8 @@
      "date": "2025-04-08",
      "status": "trial-use",
      "sequence": "STU 1.1",
-     "path": "http://hl7.org/fhir/us/davinci-alerts/STU1.1"
+     "path": "http://hl7.org/fhir/us/davinci-alerts/STU1.1",
+     "current": true
     },
     {
      "version": "1.1.0-preview",
@@ -6752,7 +6671,8 @@
      "date": "2025-05-16",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/davinci-atr/STU2.1"
+     "path": "http://hl7.org/fhir/us/davinci-atr/STU2.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -6810,7 +6730,8 @@
      "date": "2025-02-11",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/davinci-cdex/STU2.1"
+     "path": "http://hl7.org/fhir/us/davinci-cdex/STU2.1",
+     "current": true
     },
     {
      "version": "2.1.0-snapshot",
@@ -6898,7 +6819,8 @@
      "date": "2026-03-27",
      "status": "trial-use",
      "sequence": "STU 2.2",
-     "path": "http://hl7.org/fhir/us/davinci-crd/2.2.1"
+     "path": "http://hl7.org/fhir/us/davinci-crd/2.2.1",
+     "current": true
     },
     {
      "version": "2.2.0",
@@ -7006,7 +6928,8 @@
      "date": "2025-05-19",
      "status": "trial-use",
      "sequence": "STU5 (v5.0.0)",
-     "path": "http://hl7.org/fhir/us/davinci-deqm/STU5"
+     "path": "http://hl7.org/fhir/us/davinci-deqm/STU5",
+     "current": true
     },
     {
      "version": "5.0.0-ballot",
@@ -7135,7 +7058,8 @@
      "date": "2025-02-26",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.1"
+     "path": "http://hl7.org/fhir/us/davinci-drug-formulary/STU2.1",
+     "current": true
     },
     {
      "version": "2.0.1",
@@ -7223,7 +7147,8 @@
      "date": "2026-03-27",
      "status": "trial-use",
      "sequence": "STU 2.2",
-     "path": "http://hl7.org/fhir/us/davinci-dtr/2.2.0"
+     "path": "http://hl7.org/fhir/us/davinci-dtr/2.2.0",
+     "current": true
     },
     {
      "version": "2.2.0-ballot",
@@ -7321,7 +7246,8 @@
      "date": "2026-03-24",
      "status": "trial-use",
      "sequence": "STU 1.2",
-     "path": "http://hl7.org/fhir/us/davinci-hrex/1.2.0"
+     "path": "http://hl7.org/fhir/us/davinci-hrex/1.2.0",
+     "current": true
     },
     {
      "version": "1.1.0",
@@ -7389,7 +7315,8 @@
      "date": "2026-03-27",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/davinci-pas/2.2.1"
+     "path": "http://hl7.org/fhir/us/davinci-pas/2.2.1",
+     "current": true
     },
     {
      "version": "2.2.0",
@@ -7497,7 +7424,8 @@
      "date": "2020-12-23",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/davinci-pcde/STU1"
+     "path": "http://hl7.org/fhir/us/davinci-pcde/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -7525,7 +7453,8 @@
      "date": "2026-03-20",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/davinci-pct/STU2.0.1"
+     "path": "http://hl7.org/fhir/us/davinci-pct/STU2.0.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -7593,7 +7522,8 @@
      "date": "2026-08-22",
      "status": "trial-use",
      "sequence": "STU2.2",
-     "path": "http://hl7.org/fhir/us/davinci-pdex/STU2.2"
+     "path": "http://hl7.org/fhir/us/davinci-pdex/STU2.2",
+     "current": true
     },
     {
      "version": "2.1.0",
@@ -7671,7 +7601,8 @@
      "date": "2025-02-25",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.2"
+     "path": "http://hl7.org/fhir/us/davinci-pdex-plan-net/STU1.2",
+     "current": true
     },
     {
      "version": "1.1.0",
@@ -7719,7 +7650,8 @@
      "date": "2025-04-08",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/davinci-pr/STU1"
+     "path": "http://hl7.org/fhir/us/davinci-pr/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -7757,7 +7689,8 @@
      "date": "2025-07-02",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/davinci-ra/STU2.1"
+     "path": "http://hl7.org/fhir/us/davinci-ra/STU2.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -7815,7 +7748,8 @@
      "date": "2025-12-08",
      "status": "trial-use",
      "sequence": "STU1.1",
-     "path": "http://hl7.org/fhir/us/davinci-vbpr/STU1.1.0"
+     "path": "http://hl7.org/fhir/us/davinci-vbpr/STU1.1.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -7853,7 +7787,8 @@
      "date": "2021-11-02",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/dental-data-exchange/STU1"
+     "path": "http://hl7.org/fhir/us/dental-data-exchange/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -7973,7 +7908,8 @@
      "date": "2024-10-30",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/ecr/2.1.2"
+     "path": "http://hl7.org/fhir/us/ecr/2.1.2",
+     "current": true
     },
     {
      "version": "2.1.0",
@@ -8051,7 +7987,8 @@
      "date": "2024-05-27",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/eltss/STU2"
+     "path": "http://hl7.org/fhir/us/eltss/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -8099,7 +8036,8 @@
      "date": "2022-09-26",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/exchange-routing/STU1"
+     "path": "http://hl7.org/fhir/us/exchange-routing/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -8142,7 +8080,8 @@
      "date": "2023-09-06",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/hai/STU2.1"
+     "path": "http://hl7.org/fhir/us/hai/STU2.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -8200,7 +8139,8 @@
      "date": "2023-04-19",
      "status": "trial-use",
      "sequence": "STU 1.1",
-     "path": "http://hl7.org/fhir/us/hai-ltcf/STU1.1"
+     "path": "http://hl7.org/fhir/us/hai-ltcf/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -8238,7 +8178,8 @@
      "date": "2026-02-11",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU2"
+     "path": "http://hl7.org/fhir/us/health-care-surveys-reporting/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -8286,7 +8227,8 @@
      "date": "2024-08-08",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/home-lab-report/STU1.1"
+     "path": "http://hl7.org/fhir/us/home-lab-report/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -8324,7 +8266,8 @@
      "date": "2023-10-04",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/hsds/STU1"
+     "path": "http://hl7.org/fhir/us/hsds/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -8352,7 +8295,8 @@
      "date": "2023-08-29",
      "status": "update",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/icsr-ae-reporting/STU1"
+     "path": "http://hl7.org/fhir/us/icsr-ae-reporting/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -8380,7 +8324,8 @@
      "date": "2025-12-10",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/identity-matching/STU2"
+     "path": "http://hl7.org/fhir/us/identity-matching/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -8428,7 +8373,8 @@
      "date": "2021-06-25",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/immds/STU1"
+     "path": "http://hl7.org/fhir/us/immds/STU1",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -8476,7 +8422,8 @@
      "date": "2024-04-16",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/insurance-card/STU1.1"
+     "path": "http://hl7.org/fhir/us/insurance-card/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -8528,7 +8475,8 @@
      "date": "2024-08-13",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/mcc/STU1"
+     "path": "http://hl7.org/fhir/us/mcc/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot2",
@@ -8566,7 +8514,8 @@
      "date": "2025-02-16",
      "status": "trial-use",
      "sequence": "STU4",
-     "path": "http://hl7.org/fhir/us/mcode/STU4"
+     "path": "http://hl7.org/fhir/us/mcode/STU4",
+     "current": true
     },
     {
      "version": "4.0.0-ballot",
@@ -8664,7 +8613,8 @@
      "date": "2025-05-15",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/mdi/STU2"
+     "path": "http://hl7.org/fhir/us/mdi/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-snapshot2",
@@ -8752,7 +8702,8 @@
      "date": "2025-11-17",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/medication-rems/STU2"
+     "path": "http://hl7.org/fhir/us/medication-rems/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -8800,7 +8751,8 @@
      "date": "2023-06-08",
      "status": "trial-use",
      "sequence": "STU1 Release 1",
-     "path": "http://hl7.org/fhir/us/medmorph/STU1"
+     "path": "http://hl7.org/fhir/us/medmorph/STU1",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -8856,7 +8808,8 @@
      "date": "2019-07-25",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/meds/STU2"
+     "path": "http://hl7.org/fhir/us/meds/STU2",
+     "current": true
     },
     {
      "version": "1.1.0",
@@ -8904,7 +8857,8 @@
      "date": "2023-03-29",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/mihr/STU1"
+     "path": "http://hl7.org/fhir/us/mihr/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -8932,7 +8886,8 @@
      "date": "2023-05-30",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/military-service/STU1"
+     "path": "http://hl7.org/fhir/us/military-service/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -8960,7 +8915,8 @@
      "date": "2025-04-10",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/ndh/STU1"
+     "path": "http://hl7.org/fhir/us/ndh/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -8988,7 +8944,8 @@
      "date": "2021-10-12",
      "status": "trial-use",
      "sequence": "STU 1 on FHIR R4",
-     "path": "http://hl7.org/fhir/us/nhsn-ade/STU1"
+     "path": "http://hl7.org/fhir/us/nhsn-ade/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9016,7 +8973,8 @@
      "date": "2025-07-09",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/nhsn-dqm/STU1"
+     "path": "http://hl7.org/fhir/us/nhsn-dqm/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9044,7 +9002,8 @@
      "date": "2021-10-12",
      "status": "trial-use",
      "sequence": "STU 1 on FHIR R4",
-     "path": "http://hl7.org/fhir/us/nhsn-med-admin/STU1"
+     "path": "http://hl7.org/fhir/us/nhsn-med-admin/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9072,7 +9031,8 @@
      "date": "2023-03-27",
      "status": "trial-use",
      "sequence": "STU 1.3 on FHIR R4",
-     "path": "http://hl7.org/fhir/us/odh/STU1.3"
+     "path": "http://hl7.org/fhir/us/odh/STU1.3",
+     "current": true
     },
     {
      "version": "1.2.0",
@@ -9140,7 +9100,8 @@
      "date": "2024-01-11",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pacio-adi/STU1"
+     "path": "http://hl7.org/fhir/us/pacio-adi/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9168,7 +9129,8 @@
      "date": "2021-11-03",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pacio-cs/STU1"
+     "path": "http://hl7.org/fhir/us/pacio-cs/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9196,7 +9158,8 @@
      "date": "2021-11-03",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pacio-fs/STU1"
+     "path": "http://hl7.org/fhir/us/pacio-fs/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9234,7 +9197,8 @@
      "date": "2025-07-23",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/pacio-pfe/STU2"
+     "path": "http://hl7.org/fhir/us/pacio-pfe/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -9282,7 +9246,8 @@
      "date": "2022-09-28",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pacio-rt/STU1"
+     "path": "http://hl7.org/fhir/us/pacio-rt/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -9310,7 +9275,8 @@
      "date": "2026-05-13",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pacio-toc/STU1"
+     "path": "http://hl7.org/fhir/us/pacio-toc/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9338,7 +9304,8 @@
      "date": "2026-04-10",
      "status": "withdrawn",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/patient-reported-outcomes/0.2.0-withdrawal"
+     "path": "http://hl7.org/fhir/us/patient-reported-outcomes/0.2.0-withdrawal",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -9376,7 +9343,8 @@
      "date": "2026-04-27",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pco/STU1"
+     "path": "http://hl7.org/fhir/us/pco/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9404,7 +9372,8 @@
      "date": "2026-09-15",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/pcs/1.0.0"
+     "path": "http://hl7.org/fhir/us/pcs/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9432,7 +9401,8 @@
      "date": "2024-10-15",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/pdmp/STU1"
+     "path": "http://hl7.org/fhir/us/pdmp/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9460,7 +9430,8 @@
      "date": "2026-06-24",
      "status": "informative",
      "sequence": "Informative 2",
-     "path": "http://hl7.org/fhir/us/ph-bulk-data/INFORMATIVE2"
+     "path": "http://hl7.org/fhir/us/ph-bulk-data/INFORMATIVE2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -9488,7 +9459,8 @@
      "date": "2026-02-17",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/ph-library/STU2"
+     "path": "http://hl7.org/fhir/us/ph-library/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-snapshot",
@@ -9546,7 +9518,8 @@
      "date": "2026-06-04",
      "status": "informative",
      "sequence": "Informative 1",
-     "path": "http://hl7.org/fhir/us/ph-query/INFORMATIVE1"
+     "path": "http://hl7.org/fhir/us/ph-query/INFORMATIVE1",
+     "current": true
     }
    ]
   },
@@ -9564,7 +9537,8 @@
      "date": "2021-02-11",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/phcp/STU1"
+     "path": "http://hl7.org/fhir/us/phcp/STU1",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -9602,7 +9576,8 @@
      "date": "2023-08-25",
      "status": "trial-use",
      "sequence": "STU 1.0",
-     "path": "http://hl7.org/fhir/us/physical-activity/STU1"
+     "path": "http://hl7.org/fhir/us/physical-activity/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9630,7 +9605,8 @@
      "date": "2025-07-08",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/pq-cmc-fda/STU2"
+     "path": "http://hl7.org/fhir/us/pq-cmc-fda/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -9678,7 +9654,8 @@
      "date": "2026-04-04",
      "status": "trial-use",
      "sequence": "STU 7",
-     "path": "http://hl7.org/fhir/us/qicore/STU7.0.2"
+     "path": "http://hl7.org/fhir/us/qicore/STU7.0.2",
+     "current": true
     },
     {
      "version": "8.0.0-ballot",
@@ -9914,7 +9891,8 @@
      "date": "2023-11-14",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/registry-protocols/STU1"
+     "path": "http://hl7.org/fhir/us/registry-protocols/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9952,7 +9930,8 @@
      "date": "2025-06-19",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/resp-net/STU1"
+     "path": "http://hl7.org/fhir/us/resp-net/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -9980,7 +9959,8 @@
      "date": "2026-04-01",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/safr/STU1"
+     "path": "http://hl7.org/fhir/us/safr/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10008,7 +9988,8 @@
      "date": "2017-04-21",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/sdcde/STU2"
+     "path": "http://hl7.org/fhir/us/sdcde/STU2",
+     "current": true
     },
     {
      "version": "1.6",
@@ -10066,7 +10047,8 @@
      "date": "2026-09-04",
      "status": "trial-use",
      "sequence": "STU 3",
-     "path": "http://hl7.org/fhir/us/sdoh-clinicalcare/3.0.0"
+     "path": "http://hl7.org/fhir/us/sdoh-clinicalcare/3.0.0",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -10164,7 +10146,8 @@
      "date": "2023-04-20",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/sirb/STU1"
+     "path": "http://hl7.org/fhir/us/sirb/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -10192,7 +10175,8 @@
      "date": "2025-05-16",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/smp/STU1"
+     "path": "http://hl7.org/fhir/us/smp/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10220,7 +10204,8 @@
      "date": "2023-05-04",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/specialty-rx/STU2"
+     "path": "http://hl7.org/fhir/us/specialty-rx/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -10268,7 +10253,8 @@
      "date": "2025-12-09",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/udap-security/STU2"
+     "path": "http://hl7.org/fhir/us/udap-security/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -10326,7 +10312,8 @@
      "date": "2022-09-12",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/us/vitals/STU1"
+     "path": "http://hl7.org/fhir/us/vitals/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -10354,7 +10341,8 @@
      "date": "2024-10-11",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/us/vr-common-library/STU2"
+     "path": "http://hl7.org/fhir/us/vr-common-library/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -10412,7 +10400,8 @@
      "date": "2024-10-16",
      "status": "trial-use",
      "sequence": "STU3",
-     "path": "http://hl7.org/fhir/us/vrdr/STU3"
+     "path": "http://hl7.org/fhir/us/vrdr/STU3",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -10500,7 +10489,8 @@
      "date": "2025-03-24",
      "status": "withdrawn",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/us/womens-health-registries/0.2.0-withdrawal"
+     "path": "http://hl7.org/fhir/us/womens-health-registries/0.2.0-withdrawal",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -10538,7 +10528,8 @@
      "date": "2024-04-30",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/ae-research-backport-ig/STU1"
+     "path": "http://hl7.org/fhir/uv/ae-research-backport-ig/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10566,7 +10557,8 @@
      "date": "2024-04-30",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/ae-research-ig/STU1"
+     "path": "http://hl7.org/fhir/uv/ae-research-ig/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10612,7 +10604,8 @@
      "date": "2026-06-04",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/application-feature/STU1"
+     "path": "http://hl7.org/fhir/uv/application-feature/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10650,7 +10643,8 @@
      "date": "2025-12-11",
      "status": "trial-use",
      "sequence": "STU 3",
-     "path": "http://hl7.org/fhir/uv/bulkdata/STU3"
+     "path": "http://hl7.org/fhir/uv/bulkdata/STU3",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -10728,7 +10722,8 @@
      "date": "2026-04-08",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/cardx-cied/STU1"
+     "path": "http://hl7.org/fhir/uv/cardx-cied/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10756,7 +10751,8 @@
      "date": "2024-12-12",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/cardx-htn-mng/STU1"
+     "path": "http://hl7.org/fhir/uv/cardx-htn-mng/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -10784,7 +10780,8 @@
      "date": "2020-08-27",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/cdisc-lab/STU1"
+     "path": "http://hl7.org/fhir/uv/cdisc-lab/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -10812,7 +10809,8 @@
      "date": "2021-08-31",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/cdisc-mapping/STU1"
+     "path": "http://hl7.org/fhir/uv/cdisc-mapping/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -10850,7 +10848,8 @@
      "date": "2025-03-12",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://cds-hooks.hl7.org/STU2"
+     "path": "http://cds-hooks.hl7.org/STU2",
+     "current": true
     },
     {
      "version": "2.0",
@@ -10908,7 +10907,8 @@
      "date": "2025-03-12",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://cds-hooks.hl7.org/hooks/STU1"
+     "path": "http://cds-hooks.hl7.org/hooks/STU1",
+     "current": true
     },
     {
      "version": "1.0.1-ballot",
@@ -10936,7 +10936,8 @@
      "date": "2025-09-24",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/cgm/STU1"
+     "path": "http://hl7.org/fhir/uv/cgm/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -11010,7 +11011,8 @@
      "date": "2024-11-26",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/uv/cpg/STU2"
+     "path": "http://hl7.org/fhir/uv/cpg/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -11068,7 +11070,8 @@
      "date": "2025-07-08",
      "status": "trial-use",
      "sequence": "STU2",
-     "path": "http://hl7.org/fhir/uv/cql/STU2"
+     "path": "http://hl7.org/fhir/uv/cql/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -11126,7 +11129,8 @@
      "date": "2026-09-16",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/uv/cqm/2.0.0"
+     "path": "http://hl7.org/fhir/uv/cqm/2.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -11174,7 +11178,8 @@
      "date": "2026-07-02",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/uv/crmi/STU2"
+     "path": "http://hl7.org/fhir/uv/crmi/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -11242,7 +11247,8 @@
      "date": "2026-09-17",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/deqm/1.0.0"
+     "path": "http://hl7.org/fhir/uv/deqm/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -11316,7 +11322,8 @@
      "date": "2024-01-02",
      "status": "informative",
      "sequence": "Informative Release 1",
-     "path": "http://hl7.org/fhir/uv/ehrs-rle/Informative1"
+     "path": "http://hl7.org/fhir/uv/ehrs-rle/Informative1",
+     "current": true
     },
     {
      "version": "1.1.0-ballot",
@@ -11354,7 +11361,8 @@
      "date": "2023-07-26",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1"
+     "path": "http://hl7.org/fhir/uv/emedicinal-product-info/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -11382,7 +11390,8 @@
      "date": "2026-05-16",
      "status": "trial-use",
      "sequence": "Release 5.3",
-     "path": "http://hl7.org/fhir/extensions/5.3.0"
+     "path": "http://hl7.org/fhir/extensions/5.3.0",
+     "current": true
     },
     {
      "version": "5.3.0-ballot-tc1",
@@ -11518,7 +11527,8 @@
      "date": "2025-12-09",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/us/udap-security/STU2"
+     "path": "http://hl7.org/fhir/us/udap-security/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -11576,7 +11586,8 @@
      "date": "2026-07-03",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1"
+     "path": "http://hl7.org/fhir/uv/fhir-clinical-document/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.1",
@@ -11624,7 +11635,8 @@
      "date": "2022-09-28",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/fhir-for-fair/STU1"
+     "path": "http://hl7.org/fhir/uv/fhir-for-fair/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -11652,7 +11664,8 @@
      "date": "2025-08-30",
      "status": "trial-use",
      "sequence": "STU3 (v3.0.0)",
-     "path": "http://fhircast.hl7.org/STU3"
+     "path": "http://fhircast.hl7.org/STU3",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -11710,7 +11723,8 @@
      "date": "2024-12-12",
      "status": "trial-use",
      "sequence": "STU3",
-     "path": "http://hl7.org/fhir/uv/genomics-reporting/STU3"
+     "path": "http://hl7.org/fhir/uv/genomics-reporting/STU3",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -11816,7 +11830,8 @@
      "date": "2023-08-21",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1"
+     "path": "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -11844,7 +11859,8 @@
      "date": "2023-12-12",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/ihe-sdc-ecc/STU1"
+     "path": "http://hl7.org/fhir/uv/ihe-sdc-ecc/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -11900,7 +11916,8 @@
      "date": "2025-03-19",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/ipa/STU1.1"
+     "path": "http://hl7.org/fhir/uv/ipa/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -11938,7 +11955,8 @@
      "date": "2026-06-19",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/uv/ips/2.0.1"
+     "path": "http://hl7.org/fhir/uv/ips/2.0.1",
+     "current": true
     },
     {
      "version": "2.0.0",
@@ -12120,7 +12138,8 @@
      "date": "2026-04-30",
      "status": "informative",
      "sequence": "INFORMATIVE 1",
-     "path": "http://hl7.org/fhir/uv/omop/INFORMATIVE1"
+     "path": "http://hl7.org/fhir/uv/omop/INFORMATIVE1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12148,7 +12167,8 @@
      "date": "2026-06-04",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/order-catalog/1.0.0"
+     "path": "http://hl7.org/fhir/uv/order-catalog/1.0.0",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -12176,7 +12196,8 @@
      "date": "2025-07-10",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/patient-corrections/STU1"
+     "path": "http://hl7.org/fhir/uv/patient-corrections/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12204,7 +12225,8 @@
      "date": "2026-06-18",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/pddi/STU1"
+     "path": "http://hl7.org/fhir/uv/pddi/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12252,7 +12274,8 @@
      "date": "2024-05-08",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/pharm-quality/STU1"
+     "path": "http://hl7.org/fhir/uv/pharm-quality/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12295,7 +12318,8 @@
      "date": "2026-04-01",
      "status": "trial-use",
      "sequence": "STU 2",
-     "path": "http://hl7.org/fhir/uv/phd/STU2"
+     "path": "http://hl7.org/fhir/uv/phd/STU2",
+     "current": true
     },
     {
      "version": "2.0.0-ballot2",
@@ -12467,7 +12491,8 @@
      "date": "2026-05-07",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/radiation-dose-summary/STU1"
+     "path": "http://hl7.org/fhir/uv/radiation-dose-summary/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -12523,7 +12548,8 @@
      "date": "2021-09-07",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/saner/STU1"
+     "path": "http://hl7.org/fhir/uv/saner/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -12551,7 +12577,8 @@
      "date": "2026-03-24",
      "status": "trial-use",
      "sequence": "STU 4",
-     "path": "http://hl7.org/fhir/uv/sdc/STU4"
+     "path": "http://hl7.org/fhir/uv/sdc/STU4",
+     "current": true
     },
     {
      "version": "4.0.0-ballot",
@@ -12669,7 +12696,8 @@
      "date": "2023-04-17",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/security-label-ds4p/STU1"
+     "path": "http://hl7.org/fhir/uv/security-label-ds4p/STU1",
+     "current": true
     },
     {
      "version": "0.3.0",
@@ -12717,7 +12745,8 @@
      "date": "2026-05-01",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/shc-vaccination/STU1"
+     "path": "http://hl7.org/fhir/uv/shc-vaccination/STU1",
+     "current": true
     },
     {
      "version": "0.6.2",
@@ -12745,7 +12774,8 @@
      "date": "2024-08-19",
      "status": "normative+trial-use",
      "sequence": "Release 3",
-     "path": "http://hl7.org/fhir/uv/shorthand/N2"
+     "path": "http://hl7.org/fhir/uv/shorthand/N2",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -12813,7 +12843,8 @@
      "date": "2024-04-30",
      "status": "trial-use",
      "sequence": "STU 2.2",
-     "path": "http://hl7.org/fhir/smart-app-launch/STU2.2"
+     "path": "http://hl7.org/fhir/smart-app-launch/STU2.2",
+     "current": true
     },
     {
      "version": "2.2.0-ballot",
@@ -12901,7 +12932,8 @@
      "date": "2025-07-22",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/smart-health-cards-and-links/STU1"
+     "path": "http://hl7.org/fhir/uv/smart-health-cards-and-links/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12929,7 +12961,8 @@
      "date": "2026-10-22",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/smart-scheduling-links/1.0.0"
+     "path": "http://hl7.org/fhir/uv/smart-scheduling-links/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -12957,7 +12990,8 @@
      "date": "2022-05-06",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/smart-web-messaging/STU1"
+     "path": "http://hl7.org/fhir/uv/smart-web-messaging/STU1",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -13013,7 +13047,8 @@
      "date": "2023-01-11",
      "status": "trial-use",
      "sequence": "STU 1.1",
-     "path": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1"
+     "path": "http://hl7.org/fhir/uv/subscriptions-backport/STU1.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -13051,7 +13086,8 @@
      "date": "2026-04-02",
      "status": "trial-use",
      "sequence": "STU 1",
-     "path": "http://hl7.org/fhir/uv/symptoms/STU1"
+     "path": "http://hl7.org/fhir/uv/symptoms/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -13115,7 +13151,8 @@
      "date": "2026-10-06",
      "status": "informative",
      "sequence": "Release",
-     "path": "http://hl7.org/fhir/tools/1.3.0"
+     "path": "http://hl7.org/fhir/tools/1.3.0",
+     "current": true
     },
     {
      "version": "1.2.0",
@@ -13293,7 +13330,8 @@
      "date": "2026-09-29",
      "status": "informative",
      "sequence": "Releases",
-     "path": "http://hl7.org/fhir/uv/tx-ecosystem/1.9.6"
+     "path": "http://hl7.org/fhir/uv/tx-ecosystem/1.9.6",
+     "current": true
     },
     {
      "version": "1.9.5",
@@ -13451,7 +13489,8 @@
      "date": "2025-10-07",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/v2mappings/STU1"
+     "path": "http://hl7.org/fhir/uv/v2mappings/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -13489,7 +13528,8 @@
      "date": "2025-02-18",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/vhdir/STU1"
+     "path": "http://hl7.org/fhir/uv/vhdir/STU1",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -13527,7 +13567,8 @@
      "date": "2023-05-26",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/vulcan-rwd/STU1"
+     "path": "http://hl7.org/fhir/uv/vulcan-rwd/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -13565,7 +13606,8 @@
      "date": "2023-04-18",
      "status": "trial-use",
      "sequence": "STU1",
-     "path": "http://hl7.org/fhir/uv/vulcan-schedule/STU1"
+     "path": "http://hl7.org/fhir/uv/vulcan-schedule/STU1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -13593,7 +13635,8 @@
      "date": "2026-07-28",
      "status": "trial-use",
      "sequence": "R3",
-     "path": "http://hl7.org/fhirpath/STU3"
+     "path": "http://hl7.org/fhirpath/STU3",
+     "current": true
     },
     {
      "version": "3.0.0-ballot",
@@ -13607,7 +13650,9 @@
     },
     {
      "version": "2.0.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2020-Jan-1",
      "status": "normative",
      "sequence": "R2",
@@ -13615,7 +13660,9 @@
     },
     {
      "version": "1.3.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2019-05-01",
      "status": "ballot",
      "sequence": "R2",
@@ -13623,7 +13670,9 @@
     },
     {
      "version": "1.2.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2018-08-21",
      "status": "ballot",
      "sequence": "R2",
@@ -13631,7 +13680,9 @@
     },
     {
      "version": "1.1.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2018-03-31",
      "status": "ballot",
      "sequence": "R1",
@@ -13639,7 +13690,9 @@
     },
     {
      "version": "1.0.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2016-12-06",
      "status": "trial-use",
      "sequence": "R1",
@@ -13647,7 +13700,9 @@
     },
     {
      "version": "0.3.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2016-08-11",
      "status": "ballot",
      "sequence": "R1",
@@ -13655,7 +13710,9 @@
     },
     {
      "version": "0.2.0",
-     "fhir": [],
+     "fhir": [
+      "4.0.1"
+     ],
      "date": "2015-03-31",
      "status": "ballot",
      "sequence": "R1",
@@ -13677,7 +13734,8 @@
      "date": "2026-09-22",
      "status": "release",
      "sequence": "Publications",
-     "path": "http://terminology.hl7.org/7.4.0"
+     "path": "http://terminology.hl7.org/7.4.0",
+     "current": true
     },
     {
      "version": "7.3.0",
@@ -13945,7 +14003,8 @@
      "date": "2023-09-29",
      "status": "informative",
      "sequence": "Informative Edition 1",
-     "path": "http://hl7.org/xprod/ig/uv/gender-harmony/informative1"
+     "path": "http://hl7.org/xprod/ig/uv/gender-harmony/informative1",
+     "current": true
     },
     {
      "version": "1.0.0-ballot",
@@ -13973,7 +14032,8 @@
      "date": "2026-08-27",
      "status": "informative",
      "sequence": "Informative 1",
-     "path": "http://hl7.org/xprod/ig/uv/piqi/1.0.0"
+     "path": "http://hl7.org/xprod/ig/uv/piqi/1.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-ballot",
@@ -14048,7 +14108,8 @@
      "date": "2026-09-11",
      "status": "normative",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.6.0"
+     "path": "https://profiles.ihe.net/fhir/ihe.formatcode.fhir/1.6.0",
+     "current": true
     },
     {
      "version": "1.5.0",
@@ -14186,7 +14247,8 @@
      "date": "2025-10-31",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/BALP/1.1.4"
+     "path": "https://profiles.ihe.net/ITI/BALP/1.1.4",
+     "current": true
     },
     {
      "version": "1.1.3",
@@ -14254,7 +14316,8 @@
      "date": "2026-10-17",
      "status": "normative",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/DeId/2.0.0"
+     "path": "https://profiles.ihe.net/ITI/DeId/2.0.0",
+     "current": true
     },
     {
      "version": "2.0.0-comment",
@@ -14282,7 +14345,8 @@
      "date": "2024-02-29",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/DSUBm/1.0.0"
+     "path": "https://profiles.ihe.net/ITI/DSUBm/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -14310,7 +14374,8 @@
      "date": "2024-11-13",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/FAIS/1.0.0"
+     "path": "https://profiles.ihe.net/ITI/FAIS/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -14353,7 +14418,8 @@
      "date": "2025-05-21",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/mCSD/4.0.0"
+     "path": "https://profiles.ihe.net/ITI/mCSD/4.0.0",
+     "current": true
     },
     {
      "version": "4.0.0-comment",
@@ -14451,7 +14517,8 @@
      "date": "2026-10-18",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/MHD/4.2.5"
+     "path": "https://profiles.ihe.net/ITI/MHD/4.2.5",
+     "current": true
     },
     {
      "version": "4.2.5-comment",
@@ -14609,7 +14676,8 @@
      "date": "2023-08-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/MHDS/2.3.1"
+     "path": "https://profiles.ihe.net/ITI/MHDS/2.3.1",
+     "current": true
     },
     {
      "version": "2.3.0",
@@ -14657,7 +14725,8 @@
      "date": "2023-08-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/mXDE/1.3.0"
+     "path": "https://profiles.ihe.net/ITI/mXDE/1.3.0",
+     "current": true
     },
     {
      "version": "1.3.0-comment",
@@ -14695,7 +14764,8 @@
      "date": "2023-11-16",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/NPFS/2.2.0"
+     "path": "https://profiles.ihe.net/ITI/NPFS/2.2.0",
+     "current": true
     },
     {
      "version": "2.2.0-comment",
@@ -14723,7 +14793,8 @@
      "date": "2024-02-22",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/PCF/1.1.0"
+     "path": "https://profiles.ihe.net/ITI/PCF/1.1.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -14761,7 +14832,8 @@
      "date": "2025-11-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/PDQm/3.2.0"
+     "path": "https://profiles.ihe.net/ITI/PDQm/3.2.0",
+     "current": true
     },
     {
      "version": "3.1.0",
@@ -14849,7 +14921,8 @@
      "date": "2025-11-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/PIXm/3.1.0"
+     "path": "https://profiles.ihe.net/ITI/PIXm/3.1.0",
+     "current": true
     },
     {
      "version": "3.0.4",
@@ -14927,7 +15000,8 @@
      "date": "2025-11-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/PMIR/1.6.0"
+     "path": "https://profiles.ihe.net/ITI/PMIR/1.6.0",
+     "current": true
     },
     {
      "version": "1.5.0",
@@ -14975,7 +15049,8 @@
      "date": "2024-12-12",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/Scheduling/1.0.0"
+     "path": "https://profiles.ihe.net/ITI/Scheduling/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15003,7 +15078,8 @@
      "date": "2023-11-17",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/sIPS/1.0.0"
+     "path": "https://profiles.ihe.net/ITI/sIPS/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15031,7 +15107,8 @@
      "date": "2023-08-02",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/SVCM/1.5.1"
+     "path": "https://profiles.ihe.net/ITI/SVCM/1.5.1",
+     "current": true
     },
     {
      "version": "1.5.0",
@@ -15079,7 +15156,8 @@
      "date": "2026-06-14",
      "status": "ballot",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/ITI/VHL/1.0.0-comment"
+     "path": "https://profiles.ihe.net/ITI/VHL/1.0.0-comment",
+     "current": true
     }
    ]
   },
@@ -15142,7 +15220,8 @@
      "date": "2026-03-03",
      "status": "ballot",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment"
+     "path": "https://profiles.ihe.net/PCC/FIIO/1.0.0-comment",
+     "current": true
     }
    ]
   },
@@ -15160,7 +15239,8 @@
      "date": "2024-06-04",
      "status": "ballot",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/PCC/mAPS/1.0.0-comment"
+     "path": "https://profiles.ihe.net/PCC/mAPS/1.0.0-comment",
+     "current": true
     }
    ]
   },
@@ -15178,7 +15258,8 @@
      "date": "2024-06-04",
      "status": "ballot",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment"
+     "path": "https://profiles.ihe.net/us/PCC/mAPS/1.0.0-comment",
+     "current": true
     }
    ]
   },
@@ -15196,7 +15277,8 @@
      "date": "2024-12-04",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/PCC/ODH/1.0.0"
+     "path": "https://profiles.ihe.net/PCC/ODH/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15254,7 +15336,8 @@
      "date": "2024-12-05",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/PCC/QEDm/3.0.0"
+     "path": "https://profiles.ihe.net/PCC/QEDm/3.0.0",
+     "current": true
     },
     {
      "version": "3.0.0-comment1",
@@ -15327,7 +15410,8 @@
      "date": "2026-06-26",
      "status": "preview",
      "sequence": "FHIR R4",
-     "path": "https://profiles.ihe.net/PHARM/MEOW/1.0.0-preview"
+     "path": "https://profiles.ihe.net/PHARM/MEOW/1.0.0-preview",
+     "current": true
     }
    ]
   },
@@ -15360,7 +15444,8 @@
      "date": "2025-05-27",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2"
+     "path": "https://profiles.ihe.net/PHARM/MPD/1.0.0-comment-2",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15403,7 +15488,8 @@
      "date": "2025-10-02",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/QRPH/CCG/1.0.0"
+     "path": "https://profiles.ihe.net/QRPH/CCG/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15431,7 +15517,8 @@
      "date": "2025-09-17",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/QRPH/mADX/3.0.0"
+     "path": "https://profiles.ihe.net/QRPH/mADX/3.0.0",
+     "current": true
     },
     {
      "version": "3.0.0-comment",
@@ -15504,7 +15591,8 @@
      "date": "2024-06-20",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/RAD/IMR/1.1.0"
+     "path": "https://profiles.ihe.net/RAD/IMR/1.1.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -15552,7 +15640,8 @@
      "date": "2023-10-03",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/RAD/IRA/1.0.0"
+     "path": "https://profiles.ihe.net/RAD/IRA/1.0.0",
+     "current": true
     },
     {
      "version": "1.0.0-comment",
@@ -15580,7 +15669,8 @@
      "date": "2026-09-03",
      "status": "trial-use",
      "sequence": "Publication",
-     "path": "https://profiles.ihe.net/RAD/MADO/1.0.0"
+     "path": "https://profiles.ihe.net/RAD/MADO/1.0.0",
+     "current": true
     }
    ]
   },
@@ -15599,36 +15689,6 @@
     }
    ]
   },
-  "medmij.fhir.nl.r4.core": {
-   "title": "MedMij R4 Core",
-   "description": "Implementation guide for MedMij R4 Core, which forms a foundation for all data services that are exchanged in FHIR R4.",
-   "canonical": "https://simplifier.net/guide/medmij-r4-core-ig",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "1.0.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "path": "https://simplifier.net/guide/medmij-r4-core-ig?version=1.0.0"
-    }
-   ]
-  },
-  "medmij.fhir.nl.stu3.core": {
-   "title": "MedMij STU3 Core",
-   "description": "Implementation guide for MedMij STU3 Core, which forms a foundation for all data services that are exchanged in FHIR STU3.",
-   "canonical": "https://simplifier.net/guide/medmij-stu3-core-ig",
-   "packageList": false,
-   "versions": [
-    {
-     "version": "1.2.0",
-     "fhir": [
-      "3.0.2"
-     ],
-     "path": "https://simplifier.net/guide/medmij-stu3-core-ig?version=1.2.0"
-    }
-   ]
-  },
   "myhealth.eu.fhir.core": {
    "title": "MyHealth@Eu Core",
    "description": "MyHealth@Eu Core Implementation Guide for European Cross border services.",
@@ -15643,7 +15703,127 @@
      "date": "2026-05-04",
      "status": "trial-use",
      "sequence": "Wave 9",
-     "path": "http://fhir.ehdsi.eu/core/1.0.0"
+     "path": "http://fhir.ehdsi.eu/core/1.0.0",
+     "current": true
+    }
+   ]
+  },
+  "ndhm.in": {
+   "title": "FHIR Implementation Guide for ABDM",
+   "description": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+   "canonical": "https://nrces.in/ndhm/fhir/r4",
+   "packageList": true,
+   "versions": [
+    {
+     "version": "6.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2024-01-24",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/6.0.0",
+     "current": true
+    },
+    {
+     "version": "5.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-12-22",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/5.0.0"
+    },
+    {
+     "version": "4.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-11-06",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/4.0.0"
+    },
+    {
+     "version": "3.1.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-08-10",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/3.1.0"
+    },
+    {
+     "version": "3.0.1",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-07-05",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/3.0.1"
+    },
+    {
+     "version": "3.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-04-20",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/3.0.0"
+    },
+    {
+     "version": "2.5.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2023-03-15",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/2.5.0"
+    },
+    {
+     "version": "2.0.1",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2021-09-03",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/2.0.1"
+    },
+    {
+     "version": "2.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2021-05-13",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/2.0"
+    },
+    {
+     "version": "1.2",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2021-04-30",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/1.2"
+    },
+    {
+     "version": "1.0.0",
+     "fhir": [
+      "4.0.1"
+     ],
+     "date": "2020-08-17",
+     "status": "release",
+     "sequence": "Releases",
+     "path": "https://nrces.in/ndhm/fhir/r4/1.0.0"
     }
    ]
   },
@@ -15676,35 +15856,8 @@
      "date": "2024-10-09",
      "status": "release",
      "sequence": "R2",
-     "path": "https://sql-on-fhir.org/ig/2.0.0"
-    }
-   ]
-  },
-  "se.vgregion.fhir.base": {
-   "title": "VGR Base Profiles Implementation Guide R4",
-   "description": "Region Västra Götaland's Base Profiles Implementation Guide",
-   "canonical": "https://fhir.vgregion.se/ig/base",
-   "packageList": true,
-   "versions": [
-    {
-     "version": "1.0.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "date": "2026-08-31",
-     "status": "release",
-     "sequence": "Releases",
-     "path": "https://fhir.vgregion.se/ig/base/1.0.0"
-    },
-    {
-     "version": "0.9.0",
-     "fhir": [
-      "4.0.1"
-     ],
-     "date": "2026-05-05",
-     "status": "preview",
-     "sequence": "Releases",
-     "path": "https://fhir.vgregion.se/ig/base/0.9.0"
+     "path": "https://sql-on-fhir.org/ig/2.0.0",
+     "current": true
     }
    ]
   },
@@ -15722,7 +15875,8 @@
      "date": "2026-04-02",
      "status": "draft",
      "sequence": "Pre-Release",
-     "path": "http://canonical.fhir.link/servicewell/wof-connect/0.1.3"
+     "path": "http://canonical.fhir.link/servicewell/wof-connect/0.1.3",
+     "current": true
     },
     {
      "version": "0.1.2",
@@ -15785,7 +15939,8 @@
      "date": "2026-08-27",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/base/1.0.0"
+     "path": "http://smart.who.int/base/1.0.0",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -15823,7 +15978,8 @@
      "date": "2026-10-02",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/base-clinical/1.0.1"
+     "path": "http://smart.who.int/base-clinical/1.0.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -15851,7 +16007,8 @@
      "date": "2025-06-13",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-bds/v1.0.0"
+     "path": "http://smart.who.int/dak-bds/v1.0.0",
+     "current": true
     }
    ]
   },
@@ -15869,7 +16026,8 @@
      "date": "2024-07-15",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-ccc/v1.0.0"
+     "path": "http://smart.who.int/dak-ccc/v1.0.0",
+     "current": true
     },
     {
      "version": "0.9.9",
@@ -15897,7 +16055,8 @@
      "date": "2025-03-06",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-immz/v1.1.0"
+     "path": "http://smart.who.int/dak-immz/v1.1.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -15935,7 +16094,8 @@
      "date": "2025-09-17",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-pnc/v1.0.0"
+     "path": "http://smart.who.int/dak-pnc/v1.0.0",
+     "current": true
     },
     {
      "version": "0.9.9",
@@ -15963,7 +16123,8 @@
      "date": "2025-07-01",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-smbp/v1.0.0"
+     "path": "http://smart.who.int/dak-smbp/v1.0.0",
+     "current": true
     }
    ]
   },
@@ -15981,7 +16142,8 @@
      "date": "2026-03-23",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-srv/v1.0.0"
+     "path": "http://smart.who.int/dak-srv/v1.0.0",
+     "current": true
     },
     {
      "version": "0.9.9",
@@ -16009,7 +16171,8 @@
      "date": "2024-07-17",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/dak-tb/v1.0.1"
+     "path": "http://smart.who.int/dak-tb/v1.0.1",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -16047,7 +16210,8 @@
      "date": "2025-07-08",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/hiv/v1.0.0"
+     "path": "http://smart.who.int/hiv/v1.0.0",
+     "current": true
     }
    ]
   },
@@ -16065,7 +16229,8 @@
      "date": "2025-10-17",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/icvp/0.3.0"
+     "path": "http://smart.who.int/icvp/0.3.0",
+     "current": true
     },
     {
      "version": "0.2.0",
@@ -16103,7 +16268,8 @@
      "date": "2024-11-30",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/ig-starter-kit/v2.0.0"
+     "path": "http://smart.who.int/ig-starter-kit/v2.0.0",
+     "current": true
     },
     {
      "version": "1.0.0",
@@ -16131,7 +16297,8 @@
      "date": "2026-10-02",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/immunizations/v1.0.0"
+     "path": "http://smart.who.int/immunizations/v1.0.0",
+     "current": true
     }
    ]
   },
@@ -16149,7 +16316,8 @@
      "date": "2025-05-27",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/ips-pilgrimage/2.0.3"
+     "path": "http://smart.who.int/ips-pilgrimage/2.0.3",
+     "current": true
     },
     {
      "version": "2.0.2",
@@ -16187,7 +16355,8 @@
      "date": "2025-06-26",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/pcmt/v0.1.0"
+     "path": "http://smart.who.int/pcmt/v0.1.0",
+     "current": true
     }
    ]
   },
@@ -16205,7 +16374,8 @@
      "date": "2025-09-16",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/pcmt-vaxprequal/v0.2.0"
+     "path": "http://smart.who.int/pcmt-vaxprequal/v0.2.0",
+     "current": true
     },
     {
      "version": "0.1.0",
@@ -16233,7 +16403,8 @@
      "date": "2026-07-09",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/ph4h/0.9.9"
+     "path": "http://smart.who.int/ph4h/0.9.9",
+     "current": true
     }
    ]
   },
@@ -16251,7 +16422,8 @@
      "date": "2025-07-01",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/ra/v0.1.0"
+     "path": "http://smart.who.int/ra/v0.1.0",
+     "current": true
     }
    ]
   },
@@ -16269,7 +16441,8 @@
      "date": "2026-10-12",
      "status": "release",
      "sequence": "Releases",
-     "path": "http://smart.who.int/trust/v1.7.4"
+     "path": "http://smart.who.int/trust/v1.7.4",
+     "current": true
     },
     {
      "version": "1.7.3",
@@ -16417,7 +16590,8 @@
      "date": "2025-10-07",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/trust-phw/v0.1.0"
+     "path": "http://smart.who.int/trust-phw/v0.1.0",
+     "current": true
     }
    ]
   },
@@ -16435,7 +16609,8 @@
      "date": "2024-10-04",
      "status": "draft",
      "sequence": "Releases",
-     "path": "http://smart.who.int/ts/0.1.0"
+     "path": "http://smart.who.int/ts/0.1.0",
+     "current": true
     }
    ]
   },
@@ -16453,7 +16628,8 @@
      "date": "2025-12-10",
      "status": "trial-use",
      "sequence": "Releases",
-     "path": "https://twcore.mohw.gov.tw/ig/twcore/1.0.0"
+     "path": "https://twcore.mohw.gov.tw/ig/twcore/1.0.0",
+     "current": true
     },
     {
      "version": "0.3.2",
@@ -16527,74 +16703,6 @@
     }
    ]
   },
-  "uz.dhp.core": {
-   "title": "UZ Core",
-   "description": "National implementation guide for Uzbekistan using FHIR R5",
-   "canonical": "https://dhp.uz/fhir/core",
-   "packageList": true,
-   "versions": [
-    {
-     "version": "0.11.1",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-10-14",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.11.1"
-    },
-    {
-     "version": "0.11.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-10-12",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.11.0"
-    },
-    {
-     "version": "0.10.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-09-29",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.10.0"
-    },
-    {
-     "version": "0.9.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-09-25",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.9.0"
-    },
-    {
-     "version": "0.9.2",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-09-23",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.9.2"
-    },
-    {
-     "version": "0.8.0",
-     "fhir": [
-      "5.0.0"
-     ],
-     "date": "2026-09-23",
-     "status": "draft",
-     "sequence": "Releases",
-     "path": "https://dhp.uz/fhir/core/0.8.0"
-    }
-   ]
-  },
   "who.ddcc": {
    "title": "WHO Digital Documentation of COVID-19 Certificates (DDCC)",
    "description": "This WHO Digital Documentation of COVID-19 Certificates (DDCC) Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of COVID-19 certificates and interoperability",
@@ -16609,7 +16717,8 @@
      "date": "2024-12-18",
      "status": "draft",
      "sequence": "releases",
-     "path": "http://smart.who.int/ddcc/1.0.1"
+     "path": "http://smart.who.int/ddcc/1.0.1",
+     "current": true
     },
     {
      "version": "1.0.0",

@@ -95,20 +95,6 @@ button {
   outline-offset: 2px;
 }
 
-// Marks links to FHIR Initializr, which is still under construction.
-.beta {
-  display: inline-block;
-  padding: 0 6px;
-  border-radius: 999px;
-  border: 1px solid color-mix(in srgb, var(--mb-warn) 55%, transparent);
-  color: var(--mb-warn);
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 15px;
-  vertical-align: 1px;
-}
-
 .visually-hidden {
   position: absolute !important;
   width: 1px;

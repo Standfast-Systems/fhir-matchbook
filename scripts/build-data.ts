@@ -1,10 +1,10 @@
 // Joins data/ig-map.yaml (party tags), data/notes.yaml (plain one-liners) and snapshot/registry.json
 // (the official registry plus each guide's package-list.json, from `npm run snapshot`) into
-// public/data/guides.json for the browser. National and regional cores come from the registry by
-// rule (src/core/national.ts) rather than from ig-map.yaml.
+// public/data/guides.json for the browser. National and regional cores come from the hand-checked
+// data/national-cores.yaml rather than from ig-map.yaml.
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { parse } from 'yaml';
-import { countryLabel, isNationalCore, type RegistryEntry } from '../src/core/national.ts';
+import type { NationalCore, RegistryEntry } from '../src/core/national.ts';
 import { DEFAULT_SCOPE, REGIONS, applyScope, countByRegion } from '../src/core/scope.ts';
 import type {
   Bucket,
@@ -39,6 +39,7 @@ interface SnapVersion {
   status?: string;
   sequence?: string;
   path?: string;
+  current?: boolean;
 }
 interface SnapPackage {
   title?: string;
@@ -68,7 +69,7 @@ const snap = JSON.parse(readFileSync('snapshot/registry.json', 'utf8')) as {
   registry: Record<string, RegistryEntry>;
   packages: Record<string, SnapPackage>;
 };
-const cores = Object.values(snap.registry).filter(isNationalCore);
+const national = parse(readFileSync('data/national-cores.yaml', 'utf8')) as NationalCore[];
 
 // HL7 International, IHE, US federal agencies (ONC/ASTP, CDC, HRSA) and WHO.
 const KNOWN =
@@ -147,6 +148,7 @@ function releasesOf(id: string, p: SnapPackage): Release[] {
       date: v.date,
       url: v.path ?? p.canonical ?? `https://packages.fhir.org/${id}`,
       label: label(v),
+      ...(v.current ? { current: true } : {}),
     }))
     .sort((a, b) => semverDesc(a.version, b.version));
 }
@@ -155,7 +157,7 @@ const errors: string[] = [];
 const warnings: string[] = [];
 const guides: Guide[] = [];
 const ids = new Set(map.guides.map((g) => g.npm));
-const coreIds = new Set(cores.map((e) => e.npm));
+const coreIds = new Set(national.map((n) => n.ig));
 for (const id of Object.keys(notes))
   if (!ids.has(id) && !coreIds.has(id))
     errors.push(`notes.yaml: ${id} is neither in ig-map.yaml nor a national core`);
@@ -240,34 +242,33 @@ for (const g of map.guides) {
 
 // National and regional cores: every party builds to them, so they sit in the centre, the way
 // US Core does in the US view. Their publishers are national HL7 affiliates and health
-// authorities, so they count as known. Hand-written names and one-liners live in notes.yaml; a
-// core that appears on a later refresh gets a cleaned registry name and a generic line.
+// authorities, so they count as known. The registry is the only source of guides, so a listed
+// core it doesn't carry is skipped. Names and one-liners live in notes.yaml.
 const foundation = map.groups['foundation'];
-for (const e of cores) {
-  const p = snap.packages[e.npm];
-  if (!p) {
-    warnings.push(`${e.npm}: national core missing from the snapshot (run npm run snapshot)`);
+for (const n of national) {
+  const e = snap.registry[n.ig];
+  const p = snap.packages[n.ig];
+  if (!e || !p) {
+    warnings.push(`${n.ig} (${n.country}): not in the registry snapshot, so not listed`);
     continue;
   }
-  const note = notes[e.npm] ?? {};
-  const releases = releasesOf(e.npm, p);
+  const note = notes[n.ig] ?? {};
+  const releases = releasesOf(n.ig, p);
   const name = note.name ?? cleanName(e.name.replace(/[®©]/g, ''));
   guides.push({
-    id: e.npm,
+    id: n.ig,
     name,
     use: 'intl',
     group: foundation.label,
     bucket: bucketOf.get('foundation') ?? '',
     family: null,
     familyRank: 0,
-    domains: domainsOf.get(e.npm) ?? [],
+    domains: domainsOf.get(n.ig) ?? [],
     parties: ['patient', 'provider', 'payer'],
-    blurb:
-      note.blurb ??
-      `${countryLabel(e.country)}'s ${/core/i.test(e.name) ? 'core' : 'base'} FHIR profiles that its other guides build on.`,
+    blurb: note.blurb ?? `${n.country}'s national FHIR profiles that its other guides build on.`,
     curated: Boolean(note.blurb),
     start: 0,
-    country: countryLabel(e.country),
+    country: n.country,
     knownPublisher: true,
     withdrawn: e.withdrawn || releases.some((r) => r.status === 'withdrawn'),
     releases,

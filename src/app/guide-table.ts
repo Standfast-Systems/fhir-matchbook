@@ -217,6 +217,7 @@ export class GuideTable {
 
   protected month(date?: string): string {
     const m = /^(\d{4})-(\d{2})/.exec(date ?? '');
-    return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : '—';
+    // Publishers without a version list publish no date; say so rather than leave a dash.
+    return m ? `${MONTHS[Number(m[2]) - 1]} ${m[1]}` : 'date not published';
   }
 }

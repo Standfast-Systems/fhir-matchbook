@@ -28,7 +28,9 @@ export function isPublished(r: Release): boolean {
 /**
  * The release a guide should link to under these options, or null when it's out of scope.
  * A published R4 release always wins, so turning a toggle on never swaps a guide's link for a
- * newer ballot; the toggles only bring in guides that had nothing to show.
+ * newer ballot; the toggles only bring in guides that had nothing to show. Within the winning
+ * rule, the release the publisher marks current is preferred; if it doesn't qualify (a ballot, an
+ * R5 edition), the newest one that does is used instead.
  */
 export function pickRelease(g: Guide, o: ScopeOptions): Release | null {
   const live = g.releases.filter((r) => r.status !== 'withdrawn');
@@ -37,8 +39,8 @@ export function pickRelease(g: Guide, o: ScopeOptions): Release | null {
   if (o.drafts) tiers.push((r) => r.fhir.some(isR4));
   if (o.drafts && o.r5) tiers.push((r) => r.fhir.some(isR5));
   for (const t of tiers) {
-    const hit = live.find(t);
-    if (hit) return hit;
+    const ok = live.filter(t);
+    if (ok.length) return ok.find((r) => r.current) ?? ok[0];
   }
   return null;
 }

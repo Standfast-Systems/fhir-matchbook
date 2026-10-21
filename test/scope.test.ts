@@ -62,6 +62,28 @@ test('a published R4 release beats a newer ballot even with drafts on', () => {
   assert.equal(pickRelease(g, { ...DEFAULT_SCOPE, drafts: true })?.version, '3.0.0');
 });
 
+test("the publisher's current release wins when it qualifies, else the next best", () => {
+  const current = (r: Release) => ({ ...r, current: true });
+  const marked = guide({
+    releases: [
+      rel('2.1.0', 'trial-use'),
+      current(rel('2.0.0', 'trial-use')),
+      rel('1.0.0', 'trial-use'),
+    ],
+  });
+  assert.equal(pickRelease(marked, DEFAULT_SCOPE)?.version, '2.0.0');
+  // A ballot marked current doesn't qualify: the newest published R4 release is used instead.
+  const ballot = guide({
+    releases: [current(rel('7.0.0-ballot', 'ballot')), rel('6.0.0', 'trial-use')],
+  });
+  assert.equal(pickRelease(ballot, DEFAULT_SCOPE)?.version, '6.0.0');
+  // So is an R5 edition marked current.
+  const r5 = guide({
+    releases: [current(rel('7.4.0', 'release', ['R5'])), rel('5.5.0', 'release')],
+  });
+  assert.equal(pickRelease(r5, DEFAULT_SCOPE)?.version, '5.5.0');
+});
+
 test('toggles bring in ballot-only and R5-only guides', () => {
   const ballot = guide({ releases: [rel('1.0.0-ballot', 'ballot')] });
   const r5 = guide({ releases: [rel('1.0.0', 'trial-use', ['R5'])] });

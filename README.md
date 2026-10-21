@@ -14,27 +14,28 @@ A guide is tagged with **every party that has to build to it** (as client or ser
 
 ## Default scope
 
-| Rule | Default | Toggle |
-|---|---|---|
-| Published | A release with status trial-use, normative, informative or `release` (HL7 Terminology, WHO and many IHE guides use `release`). Ballots, drafts, CI builds and 0.x versions are out. | Include ballots and drafts |
-| FHIR R4 | The release targets R4 or R4B. | Include R5/R6 |
-| Known publisher | HL7 International and its national affiliates, IHE, US federal agencies (ONC/ASTP, CDC, HRSA), WHO, and the national health authorities behind national core guides. | — |
-| Not withdrawn | Always out. | — |
+| Rule            | Default                                                                                                                                                                             | Toggle                     |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| Published       | A release with status trial-use, normative, informative or `release` (HL7 Terminology, WHO and many IHE guides use `release`). Ballots, drafts, CI builds and 0.x versions are out. | Include ballots and drafts |
+| FHIR R4         | The release targets R4 or R4B.                                                                                                                                                      | Include R5/R6              |
+| Known publisher | HL7 International and its national affiliates, IHE, US federal agencies (ONC/ASTP, CDC, HRSA), WHO, and the national health authorities behind national core guides.                | —                          |
+| Not withdrawn   | Always out.                                                                                                                                                                         | —                          |
 
-The US view shows US-specific and universal guides. International shows guides meant strictly for use outside the US, including every country's and region's core and base guide: anything the registry files as a National or Regional Base, outside the US, whose name says core, base or basis. Those sit in the center of the diagram, the way US Core does in the US view, labelled with their country. (India's base is named "ABDM", so the rule misses it.)
+The US view shows US-specific and universal guides. International shows guides meant strictly for use outside the US, including the national and regional core and base guides in `data/national-cores.yaml`. That's a hand-checked list copied from FHIR Initializr, because the registry's own "National Base" tagging points at the wrong package for several countries. Those guides sit in the center of the diagram, the way US Core does in the US view, labelled with their country. A listed guide the registry doesn't carry is left out until it does.
 
-Each guide links to its current published R4 release. Turning a toggle on only adds guides that had nothing to show; it never swaps a published link for a newer ballot.
+Each guide links to the release its publisher marks current in `package-list.json`, when that release qualifies (published and R4 by default). Otherwise it links the newest release that does. Turning a toggle on only adds guides that had nothing to show; it never swaps a published link for a newer ballot.
 
 ## Data
 
-| File | What it is |
-|---|---|
-| `data/ig-map.yaml` | The 277 US and universal-realm guides, their group, and the `parties` tags. Hidden groups (legacy, non-FHIR, tooling, unofficial, withdrawn) are dropped. |
-| `data/notes.yaml` | Hand-written display names and one-liners, plus `start` ranks for the good first guides. This is the curation file. |
-| `data/families.yaml` | Program families (Da Vinci, CARIN, SMART, IHE, ...): the chip label, the one-line header used when the table is grouped by family, and members in reading order. |
-| `data/domains.yaml` | The 12 clinical domains and the guides in each, hand-assigned (a guide can be in several; most are in none). Transcribed from `matchbook-domain-tags.md`, the product decision. |
-| `data/buckets.yaml` | The "What are you working on?" chips shown with Provider-only selected. Every ig-map group sits in exactly one bucket. |
-| `snapshot/registry.json` | The official FHIR IG registry's index, plus each listed guide's releases from its own `package-list.json` (status, date, FHIR version, page). Guides with no reachable `package-list.json` fall back to the editions the registry lists. |
+| File                       | What it is                                                                                                                                                                                                                               |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `data/ig-map.yaml`         | The 277 US and universal-realm guides, their group, and the `parties` tags. Hidden groups (legacy, non-FHIR, tooling, unofficial, withdrawn) are dropped.                                                                                |
+| `data/notes.yaml`          | Hand-written display names and one-liners, plus `start` ranks for the good first guides. This is the curation file.                                                                                                                      |
+| `data/families.yaml`       | Program families (Da Vinci, CARIN, SMART, IHE, ...): the chip label, the one-line header used when the table is grouped by family, and members in reading order.                                                                         |
+| `data/domains.yaml`        | The 12 clinical domains and the guides in each, hand-assigned (a guide can be in several; most are in none). Transcribed from `matchbook-domain-tags.md`, the product decision.                                                          |
+| `data/national-cores.yaml` | The hand-checked national and regional core guides for the International view, with their country labels. Copied from FHIR Initializr's `kb/realms.yaml`.                                                                                |
+| `data/buckets.yaml`        | The "What are you working on?" chips shown with Provider-only selected. Every ig-map group sits in exactly one bucket.                                                                                                                   |
+| `snapshot/registry.json`   | The official FHIR IG registry's index, plus each listed guide's releases from its own `package-list.json` (status, date, FHIR version, page). Guides with no reachable `package-list.json` fall back to the editions the registry lists. |
 
 `npm run data` joins them into `public/data/guides.json`. It fails on a note for an unknown guide, and skips (with a warning) any guide the registry no longer lists: the registry is the only source of guides.
 
