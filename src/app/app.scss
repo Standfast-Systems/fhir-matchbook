@@ -67,6 +67,16 @@ small {
   margin-left: auto;
 }
 
+.feedback {
+  color: var(--mb-muted);
+  font-size: 14px;
+  font-weight: 500;
+  &:hover {
+    color: var(--mb-lime);
+    text-decoration: none;
+  }
+}
+
 .beta {
   padding: 0 6px;
   border: 1px solid color-mix(in srgb, var(--mb-warn) 45%, transparent);

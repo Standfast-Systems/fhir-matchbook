@@ -21,8 +21,11 @@
     </ul>
   </nav>
 
-  <!-- The FHIR release every section reads. -->
+  <!-- The FHIR release every section reads, and where to tell us what's wrong or missing. -->
   <app-release-switch class="release" />
+  @if (feedback) {
+    <a class="feedback" [href]="feedback" target="_blank" rel="noopener">Feedback ↗</a>
+  }
 </header>
 
 <router-outlet />
