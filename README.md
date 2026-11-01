@@ -209,7 +209,7 @@ npm run typecheck
 
 The app is Angular with signals. Browsr and the home page use no UI library; Initializr uses Angular Material, with its theme in `src/app/initializr/_theme.scss` and its icon font self-hosted (`npm run icons`). `src/core/browsr` and `src/core/initializr` are plain TypeScript, shared by the build scripts, the CLI, the tests and the browser. Browsr's view state (US/International, selected regions, toggles, search, sort, page) lives in a signal-based store, `src/app/browsr/view-store.ts`; it is held in memory, so a reload starts from the default view, and moving between Browsr's two pages keeps it.
 
-Each section is a lazy-loaded Angular route (`src/app/routes.ts`), so Initializr's code only loads on `/initializr`. GitHub Pages has no fallback for single-page apps, so after the build `scripts/pages.ts` writes a copy of `index.html` for each section page (so those URLs load directly, each with its own link-preview tags) and `404.html`. `public/og-image.png` is the link-preview card.
+Each section is a lazy-loaded Angular route (`src/app/routes.ts`), so Initializr's code only loads on `/initializr`. GitHub Pages has no fallback for single-page apps, so after the build `scripts/pages.ts` writes a copy of `index.html` for each section page (so those URLs load directly, each with its own link-preview tags) and `404.html`. `public/og-image.png` is the link-preview card, drawn by `npm run og-image` (`scripts/og-image.ts`).
 
 ## Status
 
@@ -219,7 +219,6 @@ FHIR Matchbook 2.0.0 (2026-10-28) brings Browsr (last standalone release v1.4.4)
 - **Home page copy.** A draft, to be replaced by the review thread's wording.
 - **Keeping the data in sync.** Snapshot refreshes are by hand for now (`npm run snapshot`, or the manual refresh workflow); a schedule may come back later.
 - **Links between guides and resources, both ways.** Every resource keeps an anchor by its type name (`/browsr/resources#ExplanationOfBenefit`) for this.
-- **A new link-preview image.** `public/og-image.png` still shows Browsr's three-circle diagram.
 - **Trademark wording.** Once HL7 grants permission for the name, change the footers and the license line to HL7's attribution: "FHIR® is the registered trademark of HL7 and is used with the permission of HL7."
 - **One rule for names and national cores.** Browsr and Initializr still differ on a few guide names and on some countries' core guides (Initializr's list checks out better).
 - **Inferno proof runs.** The second half of Initializr's [proof of done](#proof-of-done): run each driver's named Inferno kit against the HAPI servers. It needs a working Docker.

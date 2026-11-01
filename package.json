@@ -12,6 +12,7 @@
     "prestart": "npm run data",
     "snapshot": "node scripts/snapshot.ts",
     "resources": "node scripts/resources.ts",
+    "og-image": "node scripts/og-image.ts",
     "vectors": "node scripts/mappr-vectors.ts",
     "initializr": "node cli/initializr.ts",
     "typecheck": "tsc -p tsconfig.node.json",

@@ -17,7 +17,7 @@ import { ProfilePanel } from './profile-panel';
 import { Results } from './results';
 import { DataStore } from './data-store';
 import { ProfileStore } from './profile-store';
-import { REPO_URL } from '../repo';
+import { FEEDBACK_URL, REPO_URL } from '../repo';
 import { ReleaseStore } from '../release-store';
 import { download, zip } from './zip';
 
@@ -42,6 +42,8 @@ export class InitializrPage {
   protected readonly data = inject(DataStore);
   private readonly snack = inject(MatSnackBar);
   protected readonly repo = REPO_URL;
+  /** The feedback form, or GitHub issues until there is one. */
+  protected readonly feedback = FEEDBACK_URL ?? `${REPO_URL}/issues`;
   protected readonly tool = TOOL;
   /** The FHIR release from the shared header; Initializr only says it builds R4. */
   protected readonly release = inject(ReleaseStore).release;
